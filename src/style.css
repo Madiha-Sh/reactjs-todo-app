@@ -1,0 +1,43 @@
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: -webkit-linear-gradient(to right, #2a0845, #6441a5);
+  background: linear-gradient(to right, #2a0845, #6441a5);
+}
+
+header > img {
+  height: 80%;
+  margin-left: 10%;
+}
+
+header > p {
+  font-family: monospace;
+  margin-left: 60px;
+  color: whitesmoke;
+  font-size: 58px;
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > img {
+  width: 100%;
+}
+
+.meme > h2 {
+  font-family: monospace;
+}
+
+.mene-form > button {
+  border: none;
+  font-family: monospace;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  color: white;
+  background: #6441A5;
+}
+
